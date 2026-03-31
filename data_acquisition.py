@@ -19,7 +19,8 @@ prices_df = ld.get_history(
 ld.close_session()
 
 # data cleaning
-prices_df = prices_df[-100:]
+cleaned_prices = prices_df.dropna()
+cleaned_prices = cleaned_prices[-100:]
 
 # export to csv
-prices_df.to_csv("raw_energy_prices.csv")
+cleaned_prices.to_csv("raw_energy_prices.csv")
