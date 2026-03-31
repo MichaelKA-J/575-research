@@ -1,0 +1,3 @@
+r <= (Rank),Trace Stat,Trace CV (95%),Max Eigen Stat,Max Eigen CV (95%),Trace Reject,Max Eigen Reject
+0,17.455613816972416,15.4943,15.168824197682165,14.2639,True,True
+1,2.2867896192902504,3.8415,2.2867896192902504,3.8415,False,False
